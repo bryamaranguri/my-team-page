@@ -1,0 +1,229 @@
+/* Estilos base */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62%;
+  margin: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+/* Título principal con PT Serif */
+h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 37px;
+  font-weight: 700; /* PT Serif con negrita */
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+/* Subtítulos con Poppins */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* Textos específicos como "Product Designer" con PT Serif */
+.role {
+  font-family: 'PT Serif', serif;
+  font-size: 12px;
+  color: #000;
+  writing-mode: vertical-lr; /* Esto pone el texto verticalmente */
+  position: absolute;
+  right: -15px; /* Ajuste la posición horizontal del texto */
+  top: 0;
+  height: 100%;
+  justify-content: left; /* Centra el texto verticalmente */
+  align-items: center;
+  margin:0;
+}
+
+/* Contenedor principal con margen porcentual */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* Estructura de la página */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* height: 20vh; */
+  /* padding: 10px; */
+  /*padding-left: 10px;*/
+  padding-top: 20px;
+  /* padding-right:60px; */
+  text-align: left;
+  text-anchor: start;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  align-items: start;
+}
+
+.description p {
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 320px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* Estilos para los miembros del equipo */
+.team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  /* padding: 10px; */
+  width: fit-content;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+  width: fit-content;
+  align-items: flex-start;
+}
+
+.team-member:nth-child(even) {
+  margin-top: 30px; /* Desnivel para los elementos pares */
+}
+
+.team-member img {
+  border-radius: 0;
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+
+/*verificar */
+.team-member h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin: 0;
+  text-align: left;
+  padding-top: 10px;
+
+}
+
+.team-member p {
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* Estilos del footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: gray;
+  background-color: #f9f9f9;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Estilos responsive para dispositivos de escritorio */
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 20px 40 px;
+
+  }
+
+  header h1 {
+      font-size: 36px;
+      flex: 1;
+      text-align: left;
+      padding-left: 27%; /* !!!!! */
+
+
+  }
+
+  .description {
+    flex: 1;
+    padding-right: 25%;
+    padding-left: 5%;
+  }
+
+  main {
+      width: 80%;
+  }
+
+  .team {
+      /* V1
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px 40px;
+      justify-items: center;
+      padding: 0 40px; */
+
+      /* V2 */
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+      width: 50%;
+  }
+
+  .team-member {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 200px;
+    flex-direction: column; /* Cambiamos el diseño en pantallas más grandes */
+    justify-content: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .team-member img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 5px; /* Espacio entre la imagen y el nombre */
+  }
+
+  .team-member:nth-child(2){
+    margin-top: 80px;
+  }
+
+  .team-member:nth-child(5){
+    margin-top: 100px;
+  }
+
+  .role {
+    right: -20px;
+  }
+
+
+}

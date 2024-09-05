@@ -1,59 +1,88 @@
-# Make It Real - My Team Page
+# Make It Real - MY-TEAM-PAGE
 
-<img src="./design/desktop-preview.jpg" width="700">
+This is a solution to the my-team-page project of the Make It Real course.
 
-## Reto
+## Table of contents
 
-Su desafío es construir una pagina responsive para mostrar a tu team y lograr que se parezca lo más posible al diseño.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Puedes usar cualquier herramienta que te guste para ayudarte a completar el desafío. Entonces, si tienes algo que te gustaría practicar, no dudes en intentarlo.
 
-Sus usuarios deberían poder:
+## Overview
 
-- Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+### The challenge
 
-## Diseño
+Users should be able to:
 
-Los diseños están en formato JPG estático. El uso de archivos JPG significará que deberá usar su mejor criterio para estilos como "tamaño de fuente", "padding" y "margen".
+- Task 1
+- Task 2
 
-### Style Guide
+### Screenshot
 
-Los diseños se crearon con los siguientes anchos:
+![](./screenshot.jpg)
 
-- Mobile: 375px
-- Desktop: 1440px
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-## Colores
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
-### Primary
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-- Black: #000000
 
-## Tipografía
+## My process
 
-### Body Copy
+### Built with
 
-- Font size: 18px/14px
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-### Font
+### What I learned
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 500
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-## Construyendo tu proyecto
+To see how you can add code snippets, see below:
 
-Siéntase libre de usar cualquier flujo de trabajo con el que se sienta cómodo. A continuación se sugiere un proceso, pero no sienta que necesita seguir estos pasos:
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
+```js
+const proudOfThisFunc = () => {
+  console.log('🎉')
+}
+```
 
-1. Inicializa tu proyecto como repositorio público en [GitHub](https://github.com/). La creación de un repositorio hará que sea más fácil compartir su código con la comunidad si necesita ayuda. Si no está seguro de cómo hacer esto, [lea este recurso](https://guias.makeitreal.camp/git) .
-2. Mire los diseños para comenzar a planificar cómo abordará el proyecto. Este paso es crucial para ayudarlo a pensar con anticipación en las clases de CSS para crear estilos reutilizables.
-3. Antes de agregar estilos, estructura tu contenido con HTML. Escribir tu HTML primero puede ayudar a centrar tu atención en crear contenido bien estructurado.
-4. Escriba los estilos base para su proyecto, incluidos los estilos de contenido general, como `font-family` y `font-size`.
-5. Comience a agregar estilos en la parte superior de la página y siga hacia abajo. Pase a la siguiente sección solo cuando esté satisfecho de haber completado el área en la que está trabajando.
+If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-## Crea un `README.md` personalizado
+### Continued development
 
-Recomendamos encarecidamente sobrescribir este `README.md` con uno personalizado. Proporcionamos una plantilla dentro del archivo [`README-template.md`](./README-template.md) en este código de inicio.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-La plantilla proporciona una guía sobre qué agregar. Un `README` personalizado lo ayudará a explicar su proyecto y reflexionar sobre sus aprendizajes. Por favor, siéntete libre de editar nuestra plantilla tanto como quieras.
+### Useful resources
 
-**¡Diviértete construyendo!** 🚀
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+
+## Acknowledgments
+
+This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+
